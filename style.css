@@ -1,0 +1,337 @@
+*{
+  
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Fraunces', serif; 
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Imagem da logo */
+.logo1{
+    width: 170px;
+    padding-left: 100px;
+    
+   
+    
+}
+/* Link da tag <a> */
+.link{
+    background-color: #604829;
+    display: flex;
+    position: fixed;
+    box-shadow: 10px 5px 5px black;
+    width: 100%;
+   
+   
+   
+    
+    
+    
+    
+    
+}
+/* Contaner que envolver o menu completo */
+.link ul{
+    width: 100%;
+    max-width: 980px;
+    padding-left: 600px;
+    padding-top: 15px;
+    
+    
+}
+
+/* Cotaner que envolve os links do menu */
+.link ul li{
+    display: inline;
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none;
+   
+}
+/* Link do menu */
+.link ul li a{
+    color: #c4a47c;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+    
+}
+
+li a:hover{
+    background-color: rgb(33, 10, 10);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+/* SECAOBANNER Imagem */
+.SECAOBANNER {
+   background-image:url(imagens/parallax-imagem1.png);
+   background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 300px;
+    height: 100vh;
+    width: 100%;
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+.SECAOBANNER h1{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    
+    
+}
+    
+
+/* CONTAINERIMAGEM Imagem  */
+.CONTAINERIMAGEM {
+    background-image: url(imagens/parallax-imagem2.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    width: 100%;
+   
+    
+}
+
+.CONTAINERIMAGEM h3{
+    color:#fff;
+    background-color:#604829;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 500px;
+    font-style:oblique;
+    
+}
+
+/* CONTAINE2 IMAGEM */
+.CONTAINER2{
+    background-image: url(imagens/parallax-imagem3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    width: 100%;
+}
+
+.CONTAINER2 h3{
+  
+    color:#fff;
+    background-color:#604829;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 500px;
+    font-style:oblique;
+    
+}
+
+.CONTATOS{
+    background-image: url(imagens/parallax-imagem4.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    width: 100%;
+}
+
+.CONTATOS h2 {
+    color:#fff;
+    background-color:#604829;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 500px;
+    font-style:oblique;
+    
+}
+
+
+.paragrafo p{
+    color:#fff;
+    background-color:#604829;
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    margin-left: 500px;
+    font-style:oblique; 
+    
+    
+}
+
+
+ .CONTATOS iframe{ 
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    padding-left: 200px;
+}
+
+.HORARIO {
+    background-image: url(imagens/cafeteria.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    height: 100vh;
+    
+}
+ .HORARIO h2{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 50px;
+    
+ }
+
+ .HORARIO .HORARIO1  li  { 
+  
+   
+    font-size: 20px;
+    color:#fff;
+    list-style: none;
+    
+    
+}
+
+
+ 
+.HORARIO1 p{
+    color: #acacac;
+    
+}
+
+
+.HORARIO1 li{
+    position: relative;
+    padding-right: -500px;
+}
+
+
+.HORARIO1 li div { /* tarja */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 50%;
+    background-color: #acacac
+}
+
+.HORARIO1 li p { /* parágrafos */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.CONTAINER-RODAPE{
+    background-color: black;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    
+}
+
+.CONTAINER-RODAPE a{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+    background-image: url(imagens/seta-para-cima.png);
+    background-repeat: no-repeat;
+}
+
+
+.CONTAINER1 h2{
+    padding: 20px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #c4a47c;
+ }
+
+ .CONTAINER1 p{
+    text-align: center;
+ }
+
+
+ .teste h2{
+    padding: 20px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #c4a47c;
+ }
+  
+ .teste p{
+    text-align: center;
+ }
+
+ .CONTAINER3 h2{
+    padding: 20px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #c4a47c;
+ }
+
+ .CONTAINER3 P{
+    text-align: center;
+ }
+
+
+ @media screen and (min-width: 780px){
+   
+  
+ 
+
+    
+
+   
+ }
+
+
+    
+ 
